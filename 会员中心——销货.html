@@ -1,0 +1,215 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员中心——销货</title>
+<link type="text/css"rel="stylesheet" href="huiyuanstyle.css">
+<script src="tabs.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="head-top">
+<div class="logo"><a href=""><img src="image/logo.jpg"></a></div>
+<div class="head-nav"><a href="">返回首页</a><span>|</span><a href="">退出</a></div>
+</div>
+</div>
+
+
+
+
+
+<div id="box">
+<div id="main-one" style="border-bottom:solid 1px #768fd1;">
+<img src="image/我的办公室.jpg">
+<span>赵大宽您好，欢迎回到你的办公室</span>
+<a href=""><img src="image/放大镜.png"></a>
+<select width="20px">
+<option value="林果供应">林果供应</option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</select>
+<input type="text" class="txt" value="请输入关键字...">
+<input type="submit" class="btn"value="搜索">
+</div>
+<div id="main-box">
+<div id="main_mulu">
+<ul>
+<li><a href="会员中心——预售.html"><img src="image/预售.png"></a></li>
+<li><a href="会员中心——报价.html"><img src="image/报价.png"></a></li>
+<li><a href="会员中心——采购.html"><img src="image/采购.png"></a></li>
+<li><a href="会员中心——联销.html"><img src="image/联销.png"></a></li>
+<li><a href="会员中心——图库.html"><img src="image/图库.png"></a></li>
+<li><a href="会员中心——资料.html"><img src="image/资料.png"></a></li>
+<li><a href="会员中心——邮件.html"><img src="image/邮件.png"></a></li>
+<li><a href="会员中心——果园.html"><img src="image/果园.png"></a></li>
+<li><a href="会员中心——网店.html"><img src="image/网店.png"></a></li>
+<li><a href="会员中心——销货.html"><img src="image/销货_i.png"></a></li>
+</ul>
+</div>
+<div class="main_content_xh"id="main_content">
+<button class="btn_1">发布销货信息</button><button>管理销货信息</button>
+</div>
+<div id="list_content">
+<div id="fbxhxx">
+<table  width="868px" class="list_bg">
+<tr>
+<td colspan="2"style="text-align:center;"><span style="color:red">提示：</span>所有项必填。请认真填写每一项，以便于用户更快地找到您发布的信息。</td>
+</tr>
+<tr>
+<td>销售信息标题：</td><td class="input0"><select name="caigou"><option selected="selected">供应</option><option>急售</option><option>批发</option></select></td>
+</tr>
+<tr>
+<td>产品类别：</td><td class="input0">
+<select name="chanpinleibie">
+<option value=""selected="selected">请选择</option>
+<option value="saab">蜜桃</option>
+<option value="fiat">油桃</option>
+<option value="audi">苹果</option>
+<option value="volvo">花椒</option>
+<option value="saab">枸杞</option>
+<option value="fiat">核桃</option>
+<option value="audi">红枣</option>
+<option value="volvo">玫瑰</option>
+<option value="saab">梨</option>
+<option value="fiat">李子</option>
+<option value="audi">蜜瓜</option>
+<option value="volvo">黑木耳</option>
+<option value="saab">葡萄</option>
+<option value="fiat">西瓜</option>
+<option value="audi">杏</option>
+<option value="volvo">樱桃</option>
+<option value="saab">油橄榄</option>
+<option value="fiat">银杏</option>
+<option value="audi">草莓</option>
+<option value="volvo">籽瓜</option>
+<option value="saab">其他</option>
+</select>
+<select name="erjiliebiao">
+<option value=""selected="selected">请选择</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>产地：</td>
+<td class="input0">
+<select name="pro" id="Select1"></select>
+<select name="city" id="Select2"></select>
+<select name="county" id="Select3"></select>
+<input type="text">(请填写具体地点)
+</td>
+</tr>
+<tr>
+<td>供应数量：</td><td class="input0"><input type="text"style="width:200px;height:30px;margin-bottom:3px;">公斤（kg）</td>
+</tr>
+<tr>
+<td>有效期：</td><td class="input0"><input type="text"style="width:200px;height:30px;margin-bottom:3px;"></td>
+</tr>
+<tr>
+<td>单价</td><td class="input0"><input type="text"style="width:200px;height:30px;margin-bottom:3px;">元/公斤（无法确定时，可填写"面议"）</td>
+</tr>
+<tr>
+<td>产品图片：</td><td class="input0"><input type="text"style="width:200px;height:30px;margin-bottom:3px;"><input type="submit"value="选择模板图片"><input type="submit"value="上传图片"></td>
+</tr>
+<tr>
+<td>详情介绍：</td><td class="input0"><select name="xiangqing"><option selected="selected">请选择</option></select>您可以选择简介模板，也可以在该简介上进行修改。</td>
+</tr>
+<tr>
+<td colspan="2"><input type="text"style="width:700px;height:120px;float:left;margin:5px 0 5px 80px;"></td>
+</tr>
+<tr>
+<td class="list_btn"colspan="2"><button>发布</button><button>返回销售管理</button></td>
+</tr>
+</table>
+</div>
+<div id="glxsxx">
+<table  width="868px" class="gljgxx">
+<tr>
+<td class="th1">标题</td><td class="th1">产品类别</td><td class="th1">浏览次数</td><td class="th1">数量</td><td class="th1">有效期</td><td class="th1">价格</td><td class="th1">状态</td><td class="th1">操作</td>
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+</table>
+<p>&nbsp&nbsp&nbsp&nbsp共 0 条记录， 页 1/0</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div id="main-three">
+<div id="main-three-left">
+<h4>&nbsp常见问题解决</h4>
+<p><img src="image/3.jpg"></p>
+<div class="wenti">
+<ul>
+<li><img src="image/1.png"><a href="">如何成为认证会员？</a></li>
+<li><img src="image/1.png"><a href="">如何发布供求信息？</a></li>
+<li><img src="image/1.png"><a href="">如何实现果品联销？</a></li>
+<li><img src="image/1.png"><a href="">如何上传图片？</a></li>
+<li><img src="image/1.png"><a href="">如何预售产品？</a></li>
+</ul>
+</div>
+<div class="wenti">
+<ul>
+<li><img src="image/1.png"><a href="">如何成为认证会员？</a></li>
+<li><img src="image/1.png"><a href="">如何发布供求信息？</a></li>
+<li><img src="image/1.png"><a href="">如何实现果品联销？</a></li>
+<li><img src="image/1.png"><a href=""> 如何上传图片？</a></li>
+<li><img src="image/1.png"><a href="">如何预售产品？</a></li>
+</ul>
+</div>
+
+</div>
+<div id="main-three-right">
+<p class="liuyan">给管理员留言</p>
+<p><span>标题:</span><input type="text"></p>
+<p><span class="neirong">内容:</span><input type="textarea" class="area"></p>
+<input type="submit"value="发送"class="btn_fs">
+</div>
+</div>
+</div>
+
+
+
+
+
+<div id="footer">
+<div id="footer-main">
+<div id="footer-nav">
+<ul>
+<li><a href="">甘肃林果网简介</a><span>|</span></li>
+<li><a href="">服务项目</a><span>|</span></li>
+<li><a href="">推广合作</a><span>|</span></li>
+<li><a href="">网站地图</a><span>|</span></li>
+<li><a href="">法律申明</a><span>|</span></li>
+<li><a href="">帮助中心</a></li>
+</ul>
+</div>
+<br>
+<p>增值电信业务许可证：甘B2-20130014&nbsp&nbsp&nbsp&nbsp 甘肃特色农业电子商务平台——甘肃林果网</p>
+<p>客服QQ:2065642976 E-mail：service@gslgw.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    copyright · 2013-2014 甘肃林果网 All Right Reserved</p>
+<p>甘肃新航程电子商务有限公司 2014-2015版权所有</p>
+</div>
+</div>
+</body>
+</html>
